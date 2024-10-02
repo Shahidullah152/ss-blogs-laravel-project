@@ -1,0 +1,38 @@
+@media (max-width:1200px) {
+    .sidebar{
+        width: 0%;
+    }
+    .main{
+        margin-left: 0px;
+    }
+    #sidebar-hide-show-btn{
+        display: none;
+    }
+    #sidebar-hide-show-btn2{
+        display: block;
+        border: none;
+        outline: none;
+        padding: 10px;
+        background-color: transparent;
+        color: white;
+    }
+
+}
+
+@media (max-width:370px) {
+    .search-box1 input{
+        display: none;
+    }
+    .search-box2 .fa-search{
+        display: block;
+    }
+    .search-hide{
+        opacity: 0;
+    }
+}
+@media (min-width:370px) {
+    .search-hide.search-show{
+        opacity: 0;
+    }
+}
+
