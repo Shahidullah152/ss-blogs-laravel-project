@@ -25,6 +25,13 @@
 
     <div class="container">
         <div class="row">
+            <div class="col-md-6 offset-lg-2 position-absolute top-0">
+                @if (session('success'))
+                    <div class="alert alert-success">
+                        {{ session('success') }}
+                    </div>
+                @endif
+            </div>
             <div class="col-md-6 offset-md-3 shadow-lg" id="register-form">
                 <div class="text-center">
                     <img src="img/logo.png" class="img-fluid" width="100px" height="100px" alt="">
